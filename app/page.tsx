@@ -8,15 +8,11 @@ import { ThemeToggle } from "@/components/theme-toggle"
 export default function LandingPage() {
   return (
     <div className="min-h-screen bg-white dark:bg-neutral-950 transition-colors duration-300">
-      {/* Header */}
       <header className="border-b border-neutral-200 dark:border-neutral-800 bg-white/80 dark:bg-neutral-950/80 backdrop-blur-xl sticky top-0 z-50 transition-colors duration-300">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <div className="w-8 h-8 bg-neutral-900 dark:bg-white rounded-lg flex items-center justify-center transition-colors duration-300">
-              <Code2 className="w-4 h-4 text-white dark:text-neutral-900" />
-            </div>
             <span className="text-xl font-semibold text-neutral-900 dark:text-white transition-colors duration-300">
-              Build3r
+              B3
             </span>
           </div>
           <nav className="hidden md:flex items-center space-x-8">
@@ -27,13 +23,7 @@ export default function LandingPage() {
               Templates
             </Link>
             <Link
-              href="#"
-              className="text-sm font-medium text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white transition-colors duration-200"
-            >
-              Docs
-            </Link>
-            <Link
-              href="#"
+              href="https://github.com/pavanscales/b3/"
               className="text-sm font-medium text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white transition-colors duration-200"
             >
               GitHub
@@ -42,8 +32,6 @@ export default function LandingPage() {
           </nav>
         </div>
       </header>
-
-      {/* Hero Section */}
       <section className="max-w-7xl mx-auto px-6 pt-32 pb-20">
         <div className="text-center max-w-4xl mx-auto">
           <Badge className="mb-8 bg-neutral-100 dark:bg-neutral-900 text-neutral-700 dark:text-neutral-300 border-neutral-200 dark:border-neutral-800 hover:bg-neutral-200 dark:hover:bg-neutral-800 transition-all duration-300">
@@ -52,7 +40,7 @@ export default function LandingPage() {
           </Badge>
 
           <h1 className="text-7xl md:text-8xl font-bold tracking-tight text-neutral-900 dark:text-white mb-8 transition-colors duration-300">
-            Build3r
+            b3
           </h1>
 
           <p className="text-2xl md:text-3xl text-neutral-600 dark:text-neutral-400 mb-6 max-w-3xl mx-auto leading-relaxed font-light transition-colors duration-300">
@@ -81,7 +69,7 @@ export default function LandingPage() {
               size="lg"
               className="border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-950 hover:bg-neutral-50 dark:hover:bg-neutral-900 h-12 px-8 text-base font-medium transition-all duration-300"
             >
-              <Link href="#" className="flex items-center">
+              <Link href="https://github.com/pavanscales/b3" className="flex items-center">
                 <Github className="w-4 h-4 mr-2" />
                 View on GitHub
               </Link>
@@ -89,8 +77,6 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
-
-      {/* Features Grid */}
       <section className="max-w-7xl mx-auto px-6 py-24">
         <div className="text-center mb-20">
           <h2 className="text-5xl md:text-6xl font-bold text-neutral-900 dark:text-white mb-8 tracking-tight transition-colors duration-300">
@@ -234,7 +220,6 @@ export default function LandingPage() {
         </Card>
       </section>
 
-      {/* CTA Section */}
       <section className="max-w-7xl mx-auto px-6 py-24">
         <div className="text-center">
           <h2 className="text-5xl md:text-6xl font-bold text-neutral-900 dark:text-white mb-8 tracking-tight transition-colors duration-300">
@@ -255,8 +240,6 @@ export default function LandingPage() {
           </Button>
         </div>
       </section>
-
-      {/* Footer */}
       <footer className="border-t border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-900 transition-colors duration-300">
         <div className="max-w-7xl mx-auto px-6 py-20">
           <div className="grid md:grid-cols-5 gap-12">
@@ -266,7 +249,7 @@ export default function LandingPage() {
                   <Code2 className="w-4 h-4 text-white dark:text-neutral-900" />
                 </div>
                 <span className="text-xl font-semibold text-neutral-900 dark:text-white transition-colors duration-300">
-                  Build3r
+                  B3
                 </span>
               </div>
               <p className="text-neutral-600 dark:text-neutral-400 leading-relaxed max-w-sm transition-colors duration-300">
@@ -311,14 +294,6 @@ export default function LandingPage() {
                 Resources
               </h4>
               <ul className="space-y-4">
-                <li>
-                  <Link
-                    href="#"
-                    className="text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white transition-colors duration-200"
-                  >
-                    Documentation
-                  </Link>
-                </li>
                 <li>
                   <Link
                     href="#"
@@ -369,12 +344,6 @@ export default function LandingPage() {
                 </li>
               </ul>
             </div>
-          </div>
-
-          <div className="border-t border-neutral-200 dark:border-neutral-800 mt-16 pt-8 transition-colors duration-300">
-            <p className="text-center text-neutral-600 dark:text-neutral-400 transition-colors duration-300">
-              © 2024 Build3r. All rights reserved.
-            </p>
           </div>
         </div>
       </footer>

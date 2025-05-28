@@ -35,11 +35,9 @@ export default function GeneratorPage() {
               </Link>
             </Button>
             <div className="flex items-center space-x-3">
-              <div className="w-8 h-8 bg-neutral-900 dark:bg-white rounded-lg flex items-center justify-center transition-colors duration-300">
-                <Code2 className="w-4 h-4 text-white dark:text-neutral-900" />
-              </div>
+             
               <span className="text-xl font-semibold text-neutral-900 dark:text-white transition-colors duration-300">
-                Build3r
+                b3
               </span>
             </div>
           </div>
